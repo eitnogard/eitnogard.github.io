@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <script src="jquery-3.3.1.js"></script>
+  <meta charset="utf-8">
+  <title>HKBU Staff Quarter At Fo Tan</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+
+  <!-- =======================================================
+    Theme Name: Avilon
+    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="#intro"><img src="img/logo3.png" alt="" title="" width="120px"></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">The development</a></li>
+          <li><a href="#features">The Apartment</a></li>
+          <li><a href="#pricing">Management</a></li>
+          <li><a href="#team">Contact Information</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+
+
+          <li><a href="#contact">General Enquiries</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-text">
+      <h2>HKBU STAFF QUARTER AT FO TAN</h2>
+      <p>WE CARE ABOUT YOUR LIVING</p>
+      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    </div>
+
+    <div class="product-screens">
+
+      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
+        <img src="img/pic1.jpg" alt="">
+      </div>
+
+      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
+        <img src="img/pic2.jpg" alt="">
+      </div>
+
+      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
+        <img src="img/pic3.JPG" alt="">
+      </div>
+
+    </div>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">The development</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            <h5 style="text-align:center;">Address: 22 Sui Wo Road, Fo Tan, Shatin, N.T., Hong Kong</h5>
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/intro-bg.jpg" alt="" width="1000">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight">
+            <h2>Basic Information of HKBU Staff Quarter</h2>
+            <h3>Built Upon the hillside of Fo Tan at Shatin and attracts the scenery of Shatin Town Centre, the
+              development was built by the University and occupied in Autumn 1994.</h3>
+            <p>
+              It composed a total of 113 units in 5 Towers with 8 storeys in each Tower.
+            </p>
+
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i>All 5 Towers were used as the staff quarters until end of
+                June, 2000.</li>
+              <li><i class="ion-android-checkmark-circle"></i>two towers (Tower 4 & Tower 5) were returned to the
+                government in July, 2000. </li>
+              <li><i class="ion-android-checkmark-circle"></i> At present, Tower 1 to Tower 3 are used as the staff
+                quarters while Tower 4 & Tower 5 are used as government quarters for civil servants.</li>
+            </ul>
+
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Product Featuress Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 offset-lg-4 col-xl-3">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title" style="text-align:center">The Apartment</h3>
+
+              <span class="section-divider"></span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+
+              <div class="col-xl-7 col-sm-12 col-md-12 col-lg-12 col-xs-12">
+                <div class="wow fadeInLeft">
+                  <canvas id="myChart"></canvas>
+                  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+                  <script>
+                    function drawChart1() {
+                      var ctx = document.getElementById("myChart").getContext('2d');
+
+                      var myChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                          labels: ["100 sq.m. ( 2-bedrooms )", "135 sq.m. ( 3-bedrooms )", "150 sq.m. ( 3-bedrooms )", "170 sq.m. ( 4-bedrooms )"],
+                          datasets: [{
+                            label: '# of apartments',
+                            data: [3, 28, 30, 7],
+                            backgroundColor: [
+                              'rgba(255, 99, 132, 0.2)',
+                              'rgba(54, 162, 235, 0.2)',
+                              'rgba(255, 206, 86, 0.2)',
+                              'rgba(75, 192, 192, 0.2)'
+                            ],
+                            borderColor: [
+                              'rgba(255,99,132,1)',
+                              'rgba(54, 162, 235, 1)',
+                              'rgba(255, 206, 86, 1)',
+                              'rgba(75, 192, 192, 1)'
+                            ],
+                            borderWidth: 1,
+                        }]
+                        },
+                        options: {
+                          responsive: true,
+                    scales: {
+                            yAxes: [{
+                              ticks: {
+                                beginAtZero: true
+                              }
+                            }
+                            ]
+                          }
+                        },
+                      })
+                    }
+                    drawChart1();
+                  </script>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 wow fadeInRight">
+                There are a total of 68 apartments in Tower 1 to Tower 3 with 2 to 4 bedrooms and gross floor area
+                ranging
+                from 100 sq.m. to 170 sq.m.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-xl-12 ">
+          <div class="row">
+
+            <div class="col-lg-6 col-md-6 col-xl-3 box wow fadeInRight">
+              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              <h4 class="title">Utilities</h4>
+              <p class="description">Electricity, water and gas meters are installed and ready for use. </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xl-3 box wow fadeInRight" data-wow-delay="0.1s">
+              <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+              <h4 class="title">TV</h4>
+              <p class="description"> Local TV and satellite TV channels are available. </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xl-3 box wow fadeInRight" data-wow-delay="0.2s">
+              <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+              <h4 class="title">Telecommunication services</h4>
+              <p class="description"> Telecommunication services ports have been provided in each flat. </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xl-3 box wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+              <h4 class="title">Other services</h4>
+              <p class="description">Residents can apply for connections of telephone line, fax line, Internet
+                services, IDD services and cable TV.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+      </div>
+
+    </section><!-- #features -->
+
+    <!--==========================
+      Product Advanced Featuress Section
+    ============================-->
+    <section id="advanced-features">
+
+      <div class="features-row section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/playground.gif" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Furniture Provided</h2>
+                <h3>Standard furniture and an arrival kit </h3>
+                <p> Blankets and bedsheets, kitchen utensils and daily consumables are provided for each flat. </p>
+                <p> Additional furniture items will be provided to visiting and exchange scholars living in the
+                  Quarters.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+
+              <div class="wow fadeInRight">
+                <h2>Car park</h2>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl-7 col-sm-12 col-md-12 col-lg-12 col-xs-12">
+                      <canvas id="myChart1"></canvas>
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+                      <script>
+                        function drawChart2() {
+                          var ctx = document.getElementById("myChart1").getContext('2d');
+                          var myChart1 = new Chart(ctx, {
+                            type: 'pie',
+                            data: {
+                              datasets: [{
+                                data: [60, 25],
+                                backgroundColor: [
+                                  'rgba(255, 99, 132, 0.2)',
+                                  'rgba(54, 162, 235, 0.2)'
+
+                                ],
+                                borderColor: [
+                                  'rgba(255,99,132,1)',
+                                  'rgba(54, 162, 235, 1)'
+
+                                ],
+                                borderWidth: 1,
+                              }],
+                              options: {
+                                responsive: true,
+                              },
+
+
+                              // These labels appear in the legend and in the tooltips when hovering different arcs
+                              labels: [
+                                'covered spaces',
+                                'open spaces'
+
+                              ]
+                            },
+                          })
+                        }
+                        drawChart2();    
+                      </script>
+                    </div>
+                    <div class="col-xl col-sm-12">
+                      <i class="ion-ios-paper-outline" class="wow fadeInRight" data - wow - duration="0.5s"></i>
+                      <p class="wow fadeInRight" data-wow-duration="0.5s">There are a total of 85 car parking spaces
+                        (60
+                        covered spaces and 25 open spaces) for use by residents with valid Parking Permit issued by the
+                        Property Management Company. </p>
+                      <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                      <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">All parking spaces
+                        owned by
+                        the University are marked by yellow border. Residents are advised to observe the carpark
+                        regulations and parked in parking spaces marked yellow. </p>
+                      <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
+                      <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Guests parking is also
+                        available upon registration at the entrance guard house.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- #advanced - features-->
+
+
+
+    <!--==========================More Features Section============================-->
+    <section id="more-features" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Facilities</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">The Staff Quarters is featured with recreational facilities like swimming
+            pool, <br>
+            fitness room, squash court, table tennis court and children’s playground.<br>
+            Two common rooms are also available for resident’s use on reservation. <br>
+            There are car parking spaces for residents with valid Parking Permit issued by the property management
+            company of the Staff Quarters.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+
+              <h4 class="title">Swimming Pool</h4>
+              <img src="img/swimmingpool.jpg" class="center">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <h4 class="title">Fitness Room</h4>
+
+              <img src="img/fitness room.gif" class="center">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"></div>
+              <h4 class="title">Squash Court</h4>
+              <img src="img/squashcourt.gif" class="center">
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"></div>
+              <h4 class="title">Common Room</h4>
+              <img src="img/common room.gif" class="center">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #more-features -->
+    <section id="advanced-features">
+
+      <div class="features-row">
+
+        <div class="container">
+          <div class="section-header">
+            <h3 style="font-size: 32px; color: #111; text-align: center; font-weight: 400;">Floor Plan</h3>
+            <span class="section-divider"></span>
+          </div>
+
+          <div class="row">
+
+            <div class="col">
+              <select id="pic-changer">
+                <option value="Please make your choice">Please make your choice</option>
+                <option value="Tower1 Flat 1A" data-picture="img/t1flat1a.png">Tower1 Flat 1A</option>
+                <option value="Tower1 Flat 2A-8A" data-picture="img/t1flat28a.png">Tower1 Flat 2A-8A</option>
+                <option value="Tower2 Flat 1A" data-picture="img/t2flat1a.png">Tower2 Flat 1A</option>
+                <option value="Tower2 Flat 2A-8A" data-picture="img/t2flat28a.png">Tower2 Flat 2A-8A</option>
+                <option value="Tower3 Flat 2C-8C" data-picture="img/t3flat28c.png">Tower3 Flat 2C-8C</option>
+              </select>
+
+              <script> $('#pic-changer').change(function () { //if the select value gets changed
+                  var imageSource = $(this).find(':selected').data('picture'); //get the data from data-picture attribute
+                  if (imageSource) { //if it has data
+                    $('#image-location').html('<img src="' + imageSource + '">'); // insert image in div image-location
+                  } else {
+                    $('#image-location').html(''); //remove content from div image-location, thus removing the image
+                  }
+                })</script>
+            </div>
+            <div class="col" id="image-location" style="height:370px;">
+              <div class="wow fadeInRight"><img src="img/transparent1.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--==========================
+                                           Call To Action Section
+                                         ============================-->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Feeling interested?</h3>
+            <p class="cta-text"> You can find out more information from here!</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#pricing">Continue</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+
+    <!--==========================
+                                                        Pricing Section
+                                                      ============================-->
+    <section id="pricing" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Management</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">SINO Property Management
+            Co. Ltd (SINO) is appointed
+            to manage the common
+            areas and facilities of the
+            Staff Quarters. A team of
+            experience and responsible
+            staff is deployed on-site by
+            SINO to take care of the
+            day-to-day management
+            duties.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInLeft">
+              <h3>Management Office</h3>
+
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> To operate a Management Office and a 24 hours security
+                  control room</li>
+                <li><i class="ion-android-checkmark-circle"></i> To provide security, cleaning and landscaping service</li>
+                <li><i class="ion-android-checkmark-circle"></i> To provide repair and maintenance service to the
+                  facilities</li>
+                <li><i class="ion-android-checkmark-circle"></i> To handle emergency incident</li>
+
+              </ul>
+              <a href="#team" class="get-started-btn">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box featured wow fadeInUp">
+              <h3>Estates Office</h3>
+
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> To supervise the performance of SINO</li>
+                <li><i class="ion-android-checkmark-circle"></i> To manage the move-in and move-out of residents.</li>
+                <li><i class="ion-android-checkmark-circle"></i> To manage and maintain the household facilities</li>
+                <li><i class="ion-android-checkmark-circle"></i> To handle enquiries and complaints from residents</li>
+                <li><i class="ion-android-checkmark-circle"></i> To manage the leasing matter</li>
+              </ul>
+              <a href="#team" class="get-started-btn">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="box wow fadeInRight">
+              <h3>
+                Security Services & Control Room</h3>
+
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i> 24 hours security guards</li>
+                <li><i class="ion-android-checkmark-circle"></i> provide security services</li>
+                <li><i class="ion-android-checkmark-circle"></i> handle all emergency issues especially during
+                  non-office hours</li>
+                <li><i class="ion-android-checkmark-circle"></i> Residents can contact the security-in-charge when in
+                  need at the 24 hours Security Control Room.</li>
+
+              </ul>
+              <a href="#team" class="get-started-btn">Contact Us</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #pricing -->
+
+
+    <!--==========================
+                                                        Frequently Asked Questions Section
+                                                      ============================-->
+    <section id="faq">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Frequently Asked Questions</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">You can find out the solution of your inquiries below before contacting us.</p>
+        </div>
+
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Can I know the price of the apartment? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                Please contact Mr. W. C. Koo at 3411 5650 for more details.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Is there any public transport going to the staff
+              quarter? <i class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                You can take minibus route 69K from Shatin MTR station. The staff quarter is 15 minutes away from the
+                MTR station. So, it is very convenient.
+                <br>
+                <img src="img/minibus.png" width="300">
+              </p>
+            </div>
+          </li>
+
+
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">I am not a staff at HKBU, can I rent the house? <i
+                class="ion-android-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                Yes. Since two of the towers are owned by the government for civil servants, you can rent them although
+                you are not a HKBU staff.
+                <br>
+                For more detail, you can visit the Government Property Agency website.
+                <a href="https://www.gpa.gov.hk/english/let/suiwo.html">https://www.gpa.gov.hk/english/let/suiwo.html</a>
+
+              </p>
+            </div>
+          </li>
+
+
+
+        </ul>
+
+      </div>
+    </section><!-- #faq -->
+
+    <!--==========================
+                                                        Our Team Section
+                                                      ============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Contact Information</h3>
+          <span class="section-divider"></span>
+
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/person1.png" alt=""></div>
+              <h4>
+                Estates Office</h4>
+              <span> Room 601, Oen Hall Building, Ho Sin Hang Campus, Hong Kong Baptist University, Kowloon Tong,
+                Kowloon, Hong Kong</span>
+              Telephone No. : 3411 5660<br>
+              Fax No. : 3411 5627
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/person2.png" alt=""></div>
+              <h4> Management Office</h4>
+              <span>Podium Level (1/F) of Tower 1</span>
+              Telephone No. : 2688 0465<br>
+              Fax No. : 2688 0590
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/person3.png" alt=""></div>
+              <h4>Security Services & Control Room</h4>
+              <span>G/F of Tower 5</span>
+              Telephone No. : 2688 0473
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/person4.png" alt=""></div>
+              <h4>Flats for lease</h4>
+              <span>Mr W. C. Koo</span>
+              Telephone No. : 3411 5650
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <!--==========================
+                                                                Gallery Section
+                                                              ============================-->
+    <section id="gallery">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Gallery</h3>
+          <span class="section-divider"></span>
+
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/HKBU_6B_Living Room 1.jpg" class="gallery-popup">
+                <img src="img/HKBU_6B_Living Room 1.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/HKBU_6B_Living Room 2.jpg" class="gallery-popup">
+                <img src="img/HKBU_6B_Living Room 2.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/HKBU_6B_Master Bedroom.jpg" class="gallery-popup">
+                <img src="img/HKBU_6B_Master Bedroom.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/HKBU_6B_View.jpg" class="gallery-popup">
+                <img src="img/HKBU_6B_View.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/5.jpg" class="gallery-popup">
+                <img src="img/5.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item wow fadeInUp">
+              <a href="img/6.jpg" class="gallery-popup">
+                <img src="img/6.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #gallery -->
+
+    <!--==========================
+                                                                            Contact Section
+                                                                          ============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>General Enquiries</h3>
+              <p><b>Estates Office</b> of the University will supervise the performance of the property management
+                company,
+                manage the move-in and move-out of residents, maintain the household facilities, and handle
+                enquiries and complaints from residents.</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <p>22 Sui Wo Road, Fo Tan, Shatin, N.T., Hong Kong</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p> Mr. Raymond Li:<br><a href="mailto:cmli@hkbu.edu.hk">cmli@hkbu.edu.hk</a> <br>Ms. Ashley Yeung:<br>
+                  <a href="mailto:ashley@hkbu.edu.hk">ashley@hkbu.edu.hk</a>
+                </p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>Mr. Raymond Li:<br>
+                  +852 3411 5657<br>
+                  Ms. Ashley Yeung:<br>
+                  +852 3411 2133 </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-5 col-md-8">
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4"
+                      data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email"
+                      data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"
+                    placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+                                                                          Footer
+                                                                        ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>Avilon</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!--
+                                                                                    All the links in the footer should remain intact.
+                                                                                    You can delete the links only if you purchased the pro version.
+                                                                                    Licensing information: https://bootstrapmade.com/license/
+                                                                                    Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Avilon
+                                                                                  -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
